@@ -1,0 +1,143 @@
+/* Media Querry */
+
+/* Smartphones */
+@media screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+
+  .start-btn {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .score-window {
+    width: 80px;
+    height: 29px;
+  }
+
+  .score-line {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .timer {
+    width: 280px;
+    height: 10px;
+    top: 100px;
+  }
+
+  .reset {
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+  }
+
+  img.rotate {
+    width: 20px;
+    height: 15px;
+    top: 7px;
+    left: 18px;
+  }
+
+  .playground {
+    width: 350px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    width: 55px;
+    height: 75px;
+  }
+
+  .gameEnd,
+  .winGame {
+    font-size: 60px;
+  }
+}
+
+/* Tablets & Small Laptops */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .start-btn {
+    width: 450px;
+    height: 80px;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .score-window {
+    width: 150px;
+    height: 40px;
+  }
+
+  .score-line {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 7px;
+  }
+
+  .timer {
+    width: 450px;
+    height: 15px;
+    top: 100px;
+    left: 340px;
+  }
+
+  .reset {
+    right: 50px;
+  }
+
+  img.rotate {
+    width: 30px;
+    height: 20px;
+    top: 10px;
+    left: 28px;
+  }
+
+  .playground {
+    width: 620px;
+    height: 500px;
+    top: 25%;
+    left: 50%;
+  }
+
+  .card {
+    width: 90px;
+    height: 120px;
+  }
+
+  .gameEnd,
+  .winGame {
+    font-size: 60px;
+  }
+}
+
+/* Desktops & Laptops */
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .playground {
+    width: 870px;
+    height: 510px;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+  }
+
+  .timer {
+    top: 200px;
+  }
+}
